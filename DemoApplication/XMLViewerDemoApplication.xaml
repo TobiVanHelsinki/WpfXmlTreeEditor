@@ -1,0 +1,25 @@
+﻿<Window x:Class="DemoApplication.XMLViewerDemoApplication"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:XMLViewer="clr-namespace:XMLViewer;assembly=XMLViewer"
+    Title="XMLViewer User Control Domonstration Application">
+    
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="Auto" />
+                <ColumnDefinition Width="Auto" />
+            </Grid.ColumnDefinitions>
+            <TextBox Name="txtFilePath" TextChanged="TxtFilePath_TextChanged" Grid.Column="0" HorizontalAlignment="Stretch" />
+            <Button Margin="3, 0, 0, 0" Content="Browse..." Click="BrowseXmlFile" Grid.Column="1"/>
+            <Button Margin="3, 0, 0, 0" Content="Clear" Click="ClearXmlFile" Grid.Column="2"/>
+            <Button Margin="3, 0, 0, 0" Content="Save" Click="SaveXmlFile" Grid.Column="2"/>
+        </Grid>
+        <XMLViewer:Viewer x:Name="vXMLViwer" Grid.Row="2" />
+    </Grid>
+</Window>
