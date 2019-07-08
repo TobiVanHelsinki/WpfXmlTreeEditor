@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<package>
+  <metadata>
+    <id>$id$</id>
+    <version>$version$</version>
+    <title>$title$</title>
+    <authors>$author$</authors>
+    <owners>$author$</owners>
+    <license type="expression">MIT</license>
+    <projectUrl>https://github.com/Tobivanhelsinki/wpfxmltreeeditor</projectUrl>
+    <repository type="GitHub" url="https://github.com/Tobivanhelsinki/wpfxmltreeeditor" />
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>$description$</description>
+    <copyright>Copyright 2019</copyright>
+    <tags>wpf, xml, treeview</tags>
+    <dependencies>
+      <group targetFramework="net46">
+        <dependency id="FontAwesome.Sharp" version="4.8.2"/>
+        <dependency id="System.ValueTuple" version="4.4.0"/>
+      </group>
+    </dependencies>
+  </metadata>
+</package>

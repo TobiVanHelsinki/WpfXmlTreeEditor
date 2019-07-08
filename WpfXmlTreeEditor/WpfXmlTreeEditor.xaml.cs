@@ -3,15 +3,15 @@ using System.Windows.Data;
 using System.Xml;
 using System.Linq;
 
-namespace XMLViewer
+namespace WpfXmlTreeEditor
 {
     /// <summary>
     /// Interaction logic for Viewer.xaml
     /// </summary>
-    public partial class Viewer : UserControl
+    public partial class WpfXmlTreeEditor : UserControl
     {
         private XmlDocument _xmldocument;
-        public Viewer()
+        public WpfXmlTreeEditor()
         {
             InitializeComponent();
         }

@@ -1,7 +1,7 @@
 ﻿using System.Windows;
 using System.Windows.Controls;
 
-namespace XMLViewer
+namespace WpfXmlTreeEditor
 {
     public partial class Dialog : Window
     {
